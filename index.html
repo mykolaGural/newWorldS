@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="scss/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+            * {
+                box-sizing: border-box;
+            }
+            
+            body {
+                margin: 0;
+                font-family: Arial;
+                font-size: 17px;
+            }
+            
+            #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+            </style>
+</head>
+<body>
+
+        <div class="container-fluid" id="mainhead" >
+            <div class="row">
+                    <video autoplay muted loop preload="" id="myVideo" style="object-position: center" class="ec-video-bg" style="position: fixed;">
+                            <source src="https://elevationchurch.org/wp-content/uploads/2017/11/About.mp4" type="video/mp4">
+                          </video>
+            </div>
+        </div>
+
+                <div class="container-fluid" id="navbar" style=" position: fixed; width: 100%;  left: 0; top: 0;">
+<script>
+    var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-900px";
+  }
+  prevScrollpos = currentScrollPos;
+} 
+</script>
+
+
+                        <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-3"  >
+                                      <img src="img/1.png" alt="loop" height="40px" width="158px" style="margin-top: 37px;">
+                                </div>
+                             
+                                <div class="col-lg-6 col-md-6 col-sm-6"   id="maina" style="text-align:center;"  >
+                                    
+          
+                                      <a href="#">SERMONS</a>
+                                      <a href="#">ABOUT</a>
+                                      <a href="#">LOCATIONS</a>
+                                      <a href="#">GET INVOLVED</a>
+                                      <a href="#">OUTREACH</a>
+                                      <a href="#">STORE</a>
+                                      <a href="#">GIVING</a> 
+                                           </div>
+                              
+                                <div class="col-lg-2 col-md-2 col-sm-2" >
+                                  
+                                </div>
+                                <div class="col-lg-1 col-md-1 col-sm-1">
+                                 
+                                    
+                                      <div id="mySidenav"  class="sidenav">
+                                          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                          <a href="#">About</a>
+                                          <a href="#">Services</a>
+                                          <a href="#">Clients</a>
+                                          <a href="#">Contact</a>
+                                        </div>
+                                        <div id="main">
+                                              <div class="container" id=" mainright" onclick="openNav()">
+                                           <div class="bar1"></div>
+                                          <div class="bar2"></div>
+                                          <div class="bar3"></div>
+              
+                                        </div> 
+                                        <script>
+                                          function openNav() {
+                                              document.getElementById("mySidenav").style.width = "220px";
+                                          }
+                                          
+                                          function closeNav() {
+                                              document.getElementById("mySidenav").style.width = "0";
+                                          }
+                                          </script>
+          
+                                    </div> 
+                                    
+                                      
+                                </div>
+
+                                
+                         
+                            </div>
+                </div>
+             <div class="container-fluid"  >
+                    <div class="row" >
+                            <div class="col-md-3 col-sm-3"></div>
+                            <div class="col-md-6 col-sm-6" class="centrinfo" style="text-align:center;">
+                              
+                                 <h1 class="centrinfo">See What God Can Do Through You</h1>
+                              
+                                 <a href="" class="btn btn-default"> LEARN MORE</a>
+      
+                            </div>
+                            <div class="col-md-3 col-sm-3"></div>
+                        </div>
+             </div>
+
+            </div>
+     </div>
+
+     
+<div  id="seoc" >
+    <div class="scrollmenu">
+            <div class=" col-md-2 col-sm-2 col-lg-2 col-xs-2"></div>
+            <div class="col-md-8 col-sm-8 col-lg-8 col-xs-8" style="text-align:center;">
+                    <a href="#home">BELIEFS</a>
+                    <a href="#news">VALUES</a>
+                    <a href="#contact">LEADERSHIP</a>
+                    <a href="#about">eKIDZ</a>
+                    <a href="#about">YOUTH</a>
+                    <a href="#about">WORSHIP</a>
+            </div>
+      </div> 
+      <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2"></div>
+</div>
+
+
+<div class="container-fluid"   id="aboutus">
+<div class="row" >
+<br><br><br><br><br>
+<div class="col-lg-1 col-md-1 col-sm-1" ></div>
+<div class="col-lg-4 col-md-4 col-sm-4" >
+<h1>Our Beliefs</h1>
+<p>See how we view God, Jesus, the Bible, man, and many significant aspects of our faith.
+     Firmly rooted in Scripture, 
+    the beliefs of Elevation guide our decisions as a church.</p>
+    <a href="">LEARN MORE</a>
+</div>
+<div class="col-lg-1 col-md-1 col-sm-1" ></div>
+<div class="col-lg-5 col-md-5 col-sm-5" >
+
+<img src="img/95.jpg" class="img-thumbnail"  style="padding: 15px; border: 1px solid white;"alt="Img" width="700" height="500"> 
+</div>
+<div class="col-lg-1 col-md-1 col-sm-1" ></div>
+</div>
+</div>
+
+<div class="container-fluid"   id="aboutus2">
+        <div class="row" >
+     
+        <div class="col-lg-1 col-md-1 col-sm-1" ></div>
+        <div class="col-lg-4 col-md-4 col-sm-4" >
+        <h1>Our Beliefs</h1>
+        <p>See how we view God, Jesus, the Bible, man, and many significant aspects of our faith.
+             Firmly rooted in Scripture, 
+            the beliefs of Elevation guide our decisions as a church.</p>
+            <a href="">LEARN MORE</a>
+        </div>
+        <div class="col-lg-1 col-md-1 col-sm-1" ></div>
+        <div class="col-lg-5 col-md-5 col-sm-5" >
+        
+                <img src="img/95.jpg" class="img-thumbnail" style="padding: 15px; border: 1px solid white;" alt="Img" width="700" height="500"> 
+        </div>
+        <div class="col-lg-1 col-md-1 col-sm-1" ></div>
+        </div>
+        </div>
+         
+
+
+</body>
+</html>

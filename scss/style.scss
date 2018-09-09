@@ -1,0 +1,210 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-weight: normal;
+    font-size: 15px;
+  
+}
+#myVideo {
+      position: fi;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+   background-size: cover;
+  transition: 1s opacity;
+}
+div#seoc{
+    height: 500px;
+    margin-top: 125px;
+}
+
+
+#contentt {
+    img{
+        margin: 30px;
+    }
+   
+    top: 0;
+    color: #f1f1f1;
+    width: 100%;
+}
+#maina{
+    margin-top: 39px;
+    a{ 
+        color: rgb(201, 196, 188);
+        font-size: 0.95em;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        letter-spacing: 1.5px;
+        padding: 6.8px;
+    }
+    a:hover{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+.container {
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 30px;
+    
+}
+
+.bar1, .bar2, .bar3 {
+    margin-left: 30px;
+    width: 26px;
+    height: 2px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#secondpage{
+    background-color: #000;
+    opacity: 0.6;
+    height: 600px
+}
+div#mainhead{
+    height: 70%;
+    
+}
+h1.centrinfo {
+    margin-top: 28%;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+}
+a.centrinfo{
+ text-align: center;    
+}
+a.centrinfo{
+    text-align: center;
+    color: black;
+    border: 1px solid silver;
+    padding-left: 20px;
+    background-color: white;
+}
+.btn.btn-default {
+    border-radius: 0;
+    padding-left: 40px;
+     padding-right: 40px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     margin-top: 40px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     align-self: center;
+     letter-spacing: 2px;
+     font-weight: bold;
+  }
+  div.scrollmenu {
+    font-weight: bold;
+    background-color: #111;
+    color: #f1f1f1;
+    overflow: auto;
+    padding-left: 40px;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: silver;
+    text-align: center;
+    padding: 17px;
+    padding-left: 29px;
+    text-decoration: none;
+    font-size: 0.98em;
+    letter-spacing: 4px;
+}
+
+div.scrollmenu a:hover {
+    color: #f1f1f1;
+}
+div#aboutus{
+    height: 500px;
+    margin-top: -445px;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+}
+div#aboutus2{
+    width: 100%;
+    background-color: white;
+}
+
