@@ -205,6 +205,197 @@ div#aboutus{
 }
 div#aboutus2{
     width: 100%;
-    background-color: white;
+    height: 500px;
+    background-color: rgb(245, 245, 245);
+}
+#navbar {
+ 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 1.5s;
+  }
+  div#aboutus3{
+      margin-top: -50px;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(245, 245, 245);
+}
+div#aboutus4{
+    margin-top: -60px;
+  width: 100%;
+  height: 500px;
+  background-color: rgb(245, 245, 245);
+}
+div#aboutus5{
+    margin-top: -60px;
+  width: 100%;
+  height: 500px;
+  background-color: rgb(245, 245, 245);
+}
+div#aboutus6{
+    margin-top: -60px;
+  width: 100%;
+  height: 500px;
+  background-color: rgb(245, 245, 245);
 }
 
+
+.infodes{
+    margin-right: 16.66666667%;
+    float: right;
+text-align: left;
+margin-bottom: 1em;
+}
+
+.col-lg-4, 
+.col-sm-8, .col-xs-12{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+div.headerTitle{
+    margin-top: 65px;
+
+    h2{
+        font-size: 36px;
+font-weight: 100;
+color: white;
+text-align: left;
+color: black;
+margin-bottom: 0.5em;
+line-height: 1.25;
+    }
+}
+div.subtitle{
+    font-size: 18px;
+    color: white;
+margin-bottom: 0.83333333333333em;
+line-height: 1.5;
+p{
+    color: #777;
+    font-weight: 300;
+}
+}
+.buttonent{
+    display: inline-block;
+    margin-top: -40px;
+    button{
+        padding: 5px;
+    }
+    a{
+        color: #337ab7;
+text-decoration: none;
+background-color: transparent;
+    }
+}
+.ec-phone-image {
+    height: 400px;
+    width: 200px;
+    position: relative;
+    margin: 0 auto;
+}
+.ec-section__footer-app {
+    text-align: center;
+} 
+.ex-section__footer-app__image img {
+    max-height: 350px;
+}
+.ec-phone-image img {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.ec-phone-image__background {
+    z-index: 1;
+    background-color: white;
+}
+img {
+    vertical-align: middle;
+    border: 0;
+}
+div#imggif{
+    background-color: white;
+    height: 500px;
+}
+.ec-section__footer-app__image {
+    height: auto;
+    height: 100px;
+    position: relative;
+}
+.col-lg-offset-2 {
+    margin-left: 16.66666667%;
+}
+.col-sm-4 {
+    width: 33.33333333%;
+}
+#footer-menu{
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    height: 100px;
+    padding-top: 50px;
+    a{ 
+        color: rgb(0, 0, 0);
+        font-size: 0.95em;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        letter-spacing: 1.5px;
+        padding: 6.8px;
+        background-color: rgb(245, 245, 245);
+    }
+    a:hover{
+        text-decoration: none;
+        color: rgb(182, 171, 171);
+        background-color: rgb(245, 245, 245);
+    }
+}
+.footer-logo-ico img{
+     
+        padding-left: 50px;
+    
+}
+#footer-info{
+    background-color: rgb(230, 230, 230);
+    width: 100%;
+    height: 100px;
+    padding-top: 50px;
+    a{
+        padding-left: 15px;
+    }
+}
+#footer-all-link{
+    background-color: rgb(230, 230, 230);
+    width: 100%;
+    height: 280px;
+}
+.info-desk{
+    margin-left: 10px;
+    font-size: 0.95em;
+    line-height: 1.8em; 
+    h4{
+        color: silver;
+    }
+    li{
+        color: #000;
+    }
+}
+div.footer-root{
+    width: 100%;
+    background-color: rgb(32, 27, 27);
+    padding-top: 2px;
+    color: silver;
+    h5{
+        padding-top: 10px;
+        
+    }
+    h6{
+        padding-bottom: 13px;
+    }
+    a{
+        color: silver;
+        text-decoration: none;
+    }
+}
