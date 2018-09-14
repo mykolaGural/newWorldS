@@ -3,6 +3,24 @@
 
 body {
   margin: 0;
+  font-family: Arial;
+  font-size: 17px; }
+
+.content {
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px; }
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%; }
+
+body {
+  margin: 0;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 15px; }
@@ -105,6 +123,10 @@ div#seoc {
 
 .sidenav a:hover {
   color: #f1f1f1; }
+
+#mySidenav {
+  opacity: 0.9;
+  position: fixed; }
 
 .sidenav .closebtn {
   position: absolute;
@@ -218,21 +240,8 @@ div#aboutus6 {
   height: 500px;
   background-color: whitesmoke; }
 
-.infodes {
-  margin-right: 16.66666667%;
-  float: right;
-  text-align: left;
-  margin-bottom: 1em; }
-
-.col-lg-4,
-.col-sm-8, .col-xs-12 {
-  position: relative;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px; }
-
 div.headerTitle {
-  margin-top: 65px; }
+  margin-top: 5%; }
   div.headerTitle h2 {
     font-size: 36px;
     font-weight: 100;
@@ -245,7 +254,6 @@ div.headerTitle {
 div.subtitle {
   font-size: 18px;
   color: white;
-  margin-bottom: 0.83333333333333em;
   line-height: 1.5; }
   div.subtitle p {
     color: #777;
@@ -290,12 +298,11 @@ img {
 
 div#imggif {
   background-color: white;
-  height: 500px; }
+  height: 595px; }
 
 .ec-section__footer-app__image {
   height: auto;
-  height: 100px;
-  position: relative; }
+  height: 100px; }
 
 .col-lg-offset-2 {
   margin-left: 16.66666667%; }
@@ -307,7 +314,8 @@ div#imggif {
   background-color: whitesmoke;
   width: 100%;
   height: 100px;
-  padding-top: 50px; }
+  padding-top: 2%;
+  padding-bottom: 1%; }
   #footer-menu a {
     color: black;
     font-size: 0.95em;
@@ -317,8 +325,7 @@ div#imggif {
     background-color: whitesmoke; }
   #footer-menu a:hover {
     text-decoration: none;
-    color: #b6abab;
-    background-color: whitesmoke; }
+    color: #b6abab; }
 
 .footer-logo-ico img {
   padding-left: 50px; }
@@ -327,14 +334,18 @@ div#imggif {
   background-color: #e6e6e6;
   width: 100%;
   height: 100px;
-  padding-top: 50px; }
+  padding-top: 3%;
+  padding-bottom: 3%;
+  box-sizing: border-box; }
   #footer-info a {
     padding-left: 15px; }
 
 #footer-all-link {
   background-color: #e6e6e6;
   width: 100%;
-  height: 280px; }
+  height: 280px;
+  overflow-y: auto;
+  overflow-x: auto; }
 
 .info-desk {
   margin-left: 10px;
