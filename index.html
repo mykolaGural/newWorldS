@@ -24,7 +24,7 @@
             </div>
         </div>
 
-                <div class="container-fluid" id="navbar" style=" position: fixed; width: 100%; height: auto; left: 0; top: 0;">
+                <div class="container-fluid" id="navbar" style="width: 100%; height: auto; left: 0; top: 0;">
 <script>
     var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
@@ -57,49 +57,59 @@ window.onscroll = function() {
                                       <a href="#">GIVING</a> 
                                            </div>
                               
+                                           
+
+
+
                                 <div class="col-lg-2 col-md-2 col-sm-1 col-sm-0 col-xs-1" >
                                   
                                 </div>
-                                <div class="col-lg-1 col-md-1 col-sm-1 col-sm-6 col-xs-1" style="height: auto;">
-                                 
-                                    
-                                      <div id="mySidenav"  class="sidenav">
-                                          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                                          <a href="#">Home</a>
-                                          <a href="#">SERMONS</a>
-                                          <a href="#">ABOUT</a>
-                                          <a href="#">LOCATIONS</a>
-                                          <a href="#">GET INVOLVED</a>
-                                          <a href="#">OUTREACH</a>
-                                          <a href="#">STORE</a>
-                                          <a href="#">GIVING</a>
-                                          <br>
-                                          <a href="#">Events</a>
-                                          <a href="#">Worship</a>
-                                          <a href="#">eGroups</a>
-                                          <a href="#">eTeams</a>
-                                          <a href="#">Youth</a>
-                                          <a href="#">eKidz</a>
-                                          <br>
-                                          <a href="#">Jobs</a>
-                                          <a href="#">Internships</a>
-                                        </div>
-                                        <div id="main">
-                                              <div class="container" id=" mainright" onclick="openNav()">
-                                           <div class="bar1"></div>
-                                          <div class="bar2"></div>
-                                          <div class="bar3"></div>
-              
-                                        </div> 
-                                        <script>
-                                          function openNav() {
-                                              document.getElementById("mySidenav").style.width = "235px";
-                                          }
-                                          
-                                          function closeNav() {
-                                              document.getElementById("mySidenav").style.width = "0";
-                                          }
-                                          </script>
+                                <div class="col-lg-1 col-md-1 col-sm-1 col-sm-6 col-xs-1" style="padding-top: 37px;">
+                                        <div id="myNav" class="overlay">
+                                                <a href="javascript:void(0)" class="closebtn" style="color: white;" onclick="closeNav()">&times;</a>
+                                                <div class="overlay-content">
+                                                        <br>
+                                                        <a href="#" style="color: white;font-weight: bold;">HOME</a>
+                                                        <a href="#" style="color: white;font-weight: bold;">SERMONS</a>
+                                                        <a href="#" style="color: white;font-weight: bold;">ABOUT</a>
+                                                        <a href="#" style="color: white;font-weight: bold;">LOCATIONS</a>
+                                                        <a href="#" style="color: white;font-weight: bold;">GET INVOLVED</a>
+                                                        <a href="#" style="color: white;font-weight: bold;">OUTREACH</a>
+                                                        <a href="#" style="color: white;font-weight: bold;">STORE</a>
+                                                        <a href="#" style="color: white;font-weight: bold;">GIVING</a>
+                                                        <br>
+                                                        <a href="#">Events</a>
+                                                        <a href="#">Worship</a>
+                                                        <a href="#">eGroups</a>
+                                                        <a href="#">eTeams</a>
+                                                        <a href="#">Youth</a>
+                                                        <a href="#">eKidz</a>
+                                                        <br>
+                                                        <a href="#">Jobs</a>
+                                                        <a href="#">Internships</a>
+                                                
+                                                </div>
+                                              </div>
+                                              
+                                              <div  onclick="openNav()">
+                                                <div class="bar1"></div>
+                                               <div class="bar2"></div>
+                                               <div class="bar3"></div>
+                   
+                                             </div> 
+                                              
+                                              <script>
+                                                function openNav() {
+                                                    document.getElementById("myNav").style.width = "320px";
+                        
+                                                }
+                                                
+                                                function closeNav() {
+                                                    document.getElementById("myNav").style.width = "0";
+                                                }
+                                                </script> 
+                                       
+                                       
           
                                     </div> 
                                     
@@ -360,8 +370,8 @@ color: white; border-color: white;">Get The App</button>
 
                 <div class="col-xl-1 col-md-2 col-sm-2 col-lg-1 col-xs-12 info-desk" >
                     <ul class="nav">
-                    <h4>About</h4>
-                    <li>Beliefs</li>
+                 <li id="menu-item-11894" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11894">  <a href="" ><h4>About</h4></a></li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11894">Beliefs</li>
                     <li>Values</li>
                     <li>Leadership</li>
                     <li>Worship</li>
@@ -383,7 +393,7 @@ color: white; border-color: white;">Get The App</button>
                                 <li>eGroups</li>
                                 <li>eTeams</li>
                                 <li>eKidz</li>
-                                <li>Youth</li>
+                                <li >Youth</li>
                                 <li>Outreach</li>
                                 </ul>
                 </div>
