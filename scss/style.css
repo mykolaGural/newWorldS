@@ -1,10 +1,10 @@
 * {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 body {
   margin: 0;
-  font-family: Arial;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 17px; }
 
 .content {
@@ -40,7 +40,7 @@ body {
 
 div#seoc {
   height: 500px;
-  margin-top: 125px; }
+  margin-top: 10%; }
 
 #contentt {
   top: 0;
@@ -52,13 +52,20 @@ div#seoc {
 @media only screen and (max-width: 1000px) {
   div#maina {
     opacity: 0; } }
+@media only screen and (max-width: 760px) {
+  div.ec-section__footer-app__image {
+    height: 180px;
+    overflow: hidden; }
+
+  div.infodes {
+    text-align: center; } }
 div#maina {
   margin-top: 39px;
   overflow: hidden; }
   div#maina a {
     color: #c9c4bc;
     font-size: 0.95em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: 1.5px;
     padding: 6.8px; }
   div#maina a:hover {
@@ -160,7 +167,7 @@ div#mainhead {
   height: 70%; }
 
 h1.centrinfo {
-  margin-top: 28%;
+  margin-top: 15%;
   text-align: center;
   color: white;
   font-weight: normal; }
@@ -229,7 +236,7 @@ div.headerTitle {
     font-weight: 100;
     color: white;
     text-align: left;
-    color: black;
+    color: #2b2b2b;
     margin-bottom: 0.5em;
     line-height: 1.25; }
 
@@ -335,6 +342,8 @@ div#imggif {
     color: #999999; }
   .info-desk li {
     color: #414141; }
+  .info-desk a:hover {
+    text-decoration: none; }
 
 div.footer-root {
   width: 100%;
@@ -349,8 +358,8 @@ div.footer-root {
     color: silver;
     text-decoration: none; }
 
-div#aboutus2 h3 {
-  color: #3f3d3d;
+div#aboutus2 h2 {
+  color: #524e4e;
   letter-spacing: 1.5px; }
 div#aboutus2 p {
   color: #777;
@@ -362,6 +371,8 @@ div#aboutus2 a {
   text-decoration: none;
   letter-spacing: 1.5px;
   font-weight: bold; }
+div#aboutus2 a:hover {
+  color: #adadad; }
 
 .overlay {
   height: 100%;

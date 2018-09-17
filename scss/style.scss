@@ -1,11 +1,14 @@
+$ff: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$fs: 14px;
+
 * {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $ff;
 }
 
 body {
     margin: 0;
-    font-family: Arial;
+    font-family: $ff;
     font-size: 17px;
 }
 .content {
@@ -45,7 +48,7 @@ font-weight: normal;
 }
 div#seoc{
     height: 500px;
-    margin-top: 125px;
+    margin-top: 10%;
 }
 
 
@@ -62,6 +65,18 @@ div#seoc{
     div#maina{
         opacity: 0;
     }
+    
+   
+}
+@media only screen and (max-width: 760px){
+    div.ec-section__footer-app__image {
+        height: 180px;
+        overflow: hidden;
+    }
+    div.infodes{
+        text-align: center;
+
+    }
 }
 div#maina{
     margin-top: 39px;
@@ -70,7 +85,7 @@ overflow: hidden;
     a{ 
         color: rgb(201, 196, 188);
         font-size: 0.95em;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: $ff;
         letter-spacing: 1.5px;
         padding: 6.8px;
     }
@@ -185,7 +200,7 @@ div#mainhead{
     
 }
 h1.centrinfo {
-    margin-top: 28%;
+    margin-top: 15%;
     text-align: center;
     color: white;
     font-weight: normal;
@@ -268,7 +283,7 @@ div.headerTitle{
 font-weight: 100;
 color: white;
 text-align: left;
-color: black;
+color: rgb(43, 43, 43);
 margin-bottom: 0.5em;
 line-height: 1.25;
     }
@@ -390,6 +405,9 @@ div#imggif{
     li{
         color: rgb(65, 65, 65);
     }
+    a:hover{
+        text-decoration: none;
+    }
 }
 div.footer-root{
     width: 100%;
@@ -409,8 +427,8 @@ div.footer-root{
     }
 }
 div#aboutus2{
-    h3{
-        color: rgb(63, 61, 61);
+    h2{
+        color: rgb(82, 78, 78);
         letter-spacing: 1.5px;
     }
     p{
@@ -424,6 +442,9 @@ div#aboutus2{
         text-decoration: none;
         letter-spacing: 1.5px;
         font-weight: bold;
+    }
+    a:hover{
+        color: rgb(173, 173, 173);
     }
 }
 .overlay {
