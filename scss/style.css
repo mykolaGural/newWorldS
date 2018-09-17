@@ -49,15 +49,19 @@ div#seoc {
   #contentt img {
     margin: 30px; }
 
-#maina {
-  margin-top: 39px; }
-  #maina a {
+@media only screen and (max-width: 900px) {
+  div#maina {
+    opacity: 0; } }
+div#maina {
+  margin-top: 39px;
+  overflow: hidden; }
+  div#maina a {
     color: #c9c4bc;
     font-size: 0.95em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 1.5px;
     padding: 6.8px; }
-  #maina a:hover {
+  div#maina a:hover {
     text-decoration: none;
     color: white; }
 
@@ -206,6 +210,7 @@ div#aboutus2 {
   background-color: whitesmoke; }
 
 #navbar {
+  height: auto;
   position: fixed;
   top: 0;
   width: 100%;

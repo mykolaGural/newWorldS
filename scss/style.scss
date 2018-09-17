@@ -58,8 +58,15 @@ div#seoc{
     color: #f1f1f1;
     width: 100%;
 }
-#maina{
+@media only screen and (max-width: 900px){
+    div#maina{
+        opacity: 0;
+    }
+}
+div#maina{
     margin-top: 39px;
+overflow: hidden;
+
     a{ 
         color: rgb(201, 196, 188);
         font-size: 0.95em;
@@ -232,7 +239,7 @@ div#aboutus2{
 }
 
 #navbar {
- 
+    height: auto;
     position: fixed;
     top: 0;
     width: 100%;
