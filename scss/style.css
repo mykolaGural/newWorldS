@@ -52,10 +52,13 @@ div#seoc {
 @media only screen and (max-width: 1000px) {
   div#maina {
     opacity: 0; } }
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 767px) {
   div.ec-section__footer-app__image {
     height: 180px;
     overflow: hidden; }
+
+  #h2prono {
+    text-align: center; }
 
   div.infodes {
     text-align: center; } }
@@ -199,7 +202,6 @@ div.scrollmenu {
   background-color: #111;
   color: #f1f1f1;
   overflow: auto;
-  padding-left: 40px;
   white-space: nowrap; }
 
 div.scrollmenu a {
