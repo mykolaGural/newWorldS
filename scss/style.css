@@ -49,6 +49,9 @@ div#seoc {
   #contentt img {
     margin: 30px; }
 
+img#logophoto1 {
+  visibility: hidden; }
+
 @media only screen and (max-width: 1000px) {
   div#maina {
     opacity: 0; } }
@@ -57,8 +60,27 @@ div#seoc {
     height: 180px;
     overflow: hidden; }
 
+  div.bar1, div.bar2, div.bar3 {
+    margin-left: 30px;
+    width: 26px;
+    height: 2px;
+    background-color: black;
+    margin: 6px 0;
+    transition: 0.4s; }
+
   #h2prono {
     text-align: center; }
+
+  div#navbar {
+    background-color: #fff;
+    margin: 0; }
+
+  img#logophoto1 {
+    visibility: visible;
+    margin-top: -80px; }
+
+  #logophoto {
+    opacity: 0; }
 
   div.infodes {
     text-align: center; } }
